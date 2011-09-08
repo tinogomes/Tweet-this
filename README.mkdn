@@ -1,0 +1,11 @@
+# Tweet this
+
+Tweet this is a bookmark shortcut to add into your browser, to share pages directly from that.
+
+Sometimes, when you are surfing on weband and stop at a page, and you would like to tweet that. But that page does not have a button to tweet and you have no extension / plugin in your browser integrated into your twitter account. So, the way is to copy and paste the page link on your twitter client, add some description and then finally share it.
+
+Well, that was my scenario and I am tired. So I decided to use a mode that already use to add links in my delicious and decided to do something similar to twitter.
+
+[Tweet this][1] - Save on your bookmarks and be happy
+
+[1]: javascript:(function(){f='http://twitter.com/?status='+encodeURIComponent(window.location.href)+'%20'+encodeURIComponent(document.title);a=function(){if(!window.open(f,'tweeting','location=yes,links=no,scrollbars=no,toolbar=no,width=550,height=550'))location.href=f};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})() "Save on your bookmarks"
